@@ -1,0 +1,29 @@
+
+//NAMING CONVECTION
+public class SomeClassName{
+
+    private PropertyType x;
+
+    /** Value getter method */
+    public propertyValueType getX() { ... }
+
+    /** Value setter method */
+    public void setX(propertyValueType value) { ... }
+
+    /** Property getter method */
+    public PropertyType xProperty() { ... }
+}
+
+//SOME EXAMPLE
+public class MyCircle{
+    private DoubleProperty centerX;
+
+    /** Value getter method */
+    public double getCenterX() { ... }
+
+    /** Value setter method */
+    public void setCenterX(double value) { ... }
+
+    /** Property getter method */
+    public DoubleProperty centerXProperty() { ... }
+}
