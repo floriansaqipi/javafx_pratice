@@ -16,7 +16,7 @@ public class TwoStages extends Application {
 
         Stage stage = new Stage();
         Button btn1 = new Button("Second stage button");
-        Scene scene1 = new Scene(btn1,200,200);
+        Scene scene1 = new Scene(btn1);
         stage.setScene(scene1);
         stage.setTitle("Second stage");
         stage.setResizable(false);
