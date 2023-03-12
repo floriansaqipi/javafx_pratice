@@ -11,4 +11,5 @@ module com.example.javafx_pratice {
     exports com.example.javafx_pratice.ch06;
     exports com.example.javafx_pratice.ch07;
     exports com.example.javafx_pratice.ch08;
+    exports com.example.javafx_pratice.ch09;
 }
