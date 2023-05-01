@@ -19,8 +19,10 @@ module com.example.javafx_pratice {
     exports com.example.javafx_pratice.fx01;
     exports com.example.javafx_pratice.fx02;
     exports com.example.javafx_pratice.fx03;
+    exports com.example.javafx_pratice.fx04;
     exports com.example.javafx_pratice;
     opens com.example.javafx_pratice;
     opens com.example.javafx_pratice.fx03;
+    opens com.example.javafx_pratice.fx04;
 
 }
