@@ -28,8 +28,10 @@ class LinePane extends Pane{
         this.getChildren().add(line);
 
         Line line1 = new Line(10,10,10,10);
-        line1.endYProperty().bind(heightProperty().subtract(10));
-        line1.startXProperty().bind(widthProperty().subtract(10));
+//        line1.endYProperty().bind(heightProperty().subtract(10));
+//        line1.startXProperty().bind(widthProperty().subtract(10));
+        line1.startYProperty().bind(this.heightProperty().subtract(10));
+        line1.endXProperty().bind(this.widthProperty().subtract(10));
         line1.setStrokeWidth(5);
         line1.setStroke(Color.GREEN);
         this.getChildren().add(line1);
