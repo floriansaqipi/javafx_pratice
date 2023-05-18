@@ -32,7 +32,7 @@ module com.example.javafx_pratice {
     exports com.example.javafx_pratice.fx14;
     exports com.example.javafx_pratice.fx15;
     exports com.example.javafx_pratice.fx16;
-//    exports com.example.javafx_pratice.fx17;
+    exports com.example.javafx_pratice.fx17;
     exports com.example.javafx_pratice;
     opens com.example.javafx_pratice;
     opens com.example.javafx_pratice.fx03;
@@ -49,6 +49,6 @@ module com.example.javafx_pratice {
     opens com.example.javafx_pratice.fx14;
     opens com.example.javafx_pratice.fx15;
     opens com.example.javafx_pratice.fx16;
-//    opens com.example.javafx_pratice.fx17;
+    opens com.example.javafx_pratice.fx17;
 
 }

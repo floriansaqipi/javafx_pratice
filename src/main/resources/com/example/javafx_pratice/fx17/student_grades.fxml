@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="File">
+                    <items>
+                        <MenuItem text="Exit" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <left>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="10" style="-fx-background-color: #333;">
+            <Button text="Dashboard" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
+            <Button text="Grades" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
+            <Button text="Students" style="-fx-text-fill: white; -fx-background-color: transparent;"/>
+        </VBox>
+    </left>
+</BorderPane>
